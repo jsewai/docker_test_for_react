@@ -1,10 +1,10 @@
-version: 3
+version: '3'
 
 services:
   frontend:
     build:
       context: ./frontend
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     volumes:
       - ./frontend:/frontend
     ports:
